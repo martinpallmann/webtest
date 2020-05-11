@@ -30,5 +30,3 @@ fields:
     max: 
     labelField: italiano
   label: Piatto
-pages:
-- _data/menu.yml
