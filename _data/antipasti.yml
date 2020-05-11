@@ -3,6 +3,11 @@ piatto:
 - prezzo: 9.5
   italiano: Caponata
   tedesco: sizilianischer Auberginensalat
+  title: ''
+  subtitle: ''
 - italiano: Parmigiana
   tedesco: Auberginenauflauf
   prezzo: 9.5
+  title: ''
+  subtitle: ''
+heading: L'Antipasto
