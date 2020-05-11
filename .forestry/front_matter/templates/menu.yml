@@ -41,3 +41,5 @@ fields:
     max: 
     labelField: 
   label: Pagina
+pages:
+- _data/menu.yml
