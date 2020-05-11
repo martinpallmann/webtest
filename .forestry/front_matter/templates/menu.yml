@@ -6,9 +6,9 @@ fields:
   type: text
   config:
     required: false
-  label: Heading
-  hidden: true
-  default: L'Antipasto
+  label: Titolo della pagina
+  hidden: false
+  default: ''
 - name: piatto
   type: field_group_list
   fields:
