@@ -2,44 +2,33 @@
 label: Menu
 hide_body: true
 fields:
-- name: menu_page
+- name: piatto
   type: field_group_list
   fields:
-  - name: menu_item
-    type: field_group_list
-    fields:
-    - name: menu_item_name_italian
-      type: text
-      config:
-        required: true
-        min: 1
-      label: Italiano
-    - name: menu_item_name_german
-      type: text
-      config:
-        required: true
-        min: 1
-      label: Tedesco
-    - name: menu_item_price
-      type: number
-      label: Prezzo
-      description: ''
-      default: 0
-      required: true
-      config:
-        min: 1
-        max: 
-        step: 0.01
-        required: true
+  - name: italiano
+    type: text
+    config:
+      required: false
+    label: Italiano
+  - name: tedesco
+    type: text
+    config:
+      required: false
+    label: Tedesco
+  - name: prezzo
+    type: number
+    label: Prezzo
+    description: ''
+    default: 0
+    required: true
     config:
       min: 
       max: 
-      labelField: 
-    label: Piatto
+      step: 
   config:
     min: 
     max: 
-    labelField: 
-  label: Pagina
+    labelField: italiano
+  label: Piatto
 pages:
 - _data/menu.yml
