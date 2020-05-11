@@ -1,8 +1,8 @@
 ---
 piatto:
-- italiano: Penne all'arrabbiata
-  tedesco: Penne mit scharfer Tomatensauce
-  prezzo: 8.5
 - italiano: Spaghetti vongole
   tedesco: Spaghetti mit Herzmuscheln
   prezzo: 10.5
+- italiano: Penne all'arrabbiata
+  tedesco: Penne mit scharfer Tomatensauce
+  prezzo: 8.5
