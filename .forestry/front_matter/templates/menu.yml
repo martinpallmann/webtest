@@ -11,12 +11,14 @@ fields:
     - name: menu_item_name_italian
       type: text
       config:
-        required: false
+        required: true
+        min: 1
       label: Italiano
     - name: menu_item_name_german
       type: text
       config:
-        required: false
+        required: true
+        min: 1
       label: Tedesco
     - name: menu_item_price
       type: number
@@ -25,9 +27,10 @@ fields:
       default: 0
       required: true
       config:
-        min: 
+        min: 1
         max: 
-        step: 0
+        step: 0.01
+        required: true
     config:
       min: 
       max: 
