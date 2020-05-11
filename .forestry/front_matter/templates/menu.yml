@@ -2,10 +2,39 @@
 label: Menu
 hide_body: true
 fields:
-- name: menu
-  type: list
+- name: menu_page
+  type: field_group_list
+  fields:
+  - name: menu_item
+    type: field_group_list
+    fields:
+    - name: menu_item_name_italian
+      type: text
+      config:
+        required: false
+      label: Italiano
+    - name: menu_item_name_german
+      type: text
+      config:
+        required: false
+      label: Tedesco
+    - name: menu_item_price
+      type: number
+      label: Prezzo
+      description: ''
+      default: 0
+      required: true
+      config:
+        min: 
+        max: 
+        step: 0
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Piatto
   config:
-    use_select: false
     min: 
     max: 
-  label: Menu
+    labelField: 
+  label: Pagina
