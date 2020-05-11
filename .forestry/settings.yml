@@ -7,11 +7,20 @@ sections:
 - type: heading
   label: Carta di Menu
 - type: document
-  path: _data/antipasti.yml
+  path: _data/1-noiconsigliamo.yml
+  label: Noi consigliamo
+- type: document
+  path: _data/2-antipasti.yml
   label: Antipasti
 - type: document
-  path: _data/pasta.yml
+  path: _data/3-pasta.yml
   label: Pasta
+- type: document
+  path: _data/4-pesce.yml
+  label: Pesce
+- type: document
+  path: _data/5-carne.yml
+  label: Carne
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

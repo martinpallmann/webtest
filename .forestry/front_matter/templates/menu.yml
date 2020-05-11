@@ -18,14 +18,14 @@ fields:
   - name: title
     type: text
     config:
-      required: false
+      required: true
     label: Titolo
   - name: subtitle
     type: text
     config:
       required: false
     label: Sottotitolo
-  - name: prezzo
+  - name: price
     type: number
     label: Prezzo
     description: ''
@@ -38,8 +38,5 @@ fields:
   config:
     min: 
     max: 
-    labelField: italiano
+    labelField: title
   label: Piatto
-pages:
-- _data/antipasti.yml
-- _data/pasta.yml
