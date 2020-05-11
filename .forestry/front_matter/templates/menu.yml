@@ -9,7 +9,7 @@ fields:
   label: Titolo della pagina
   hidden: false
   default: ''
-- name: piatto
+- name: menu_items
   type: field_group_list
   fields:
   - name: title
