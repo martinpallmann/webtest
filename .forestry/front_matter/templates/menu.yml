@@ -2,9 +2,6 @@
 label: Menu
 hide_body: true
 fields:
-- name: published
-  type: boolean
-  label: Publicato
 - name: heading
   type: text
   config:
@@ -12,6 +9,9 @@ fields:
   label: Titolo della pagina
   hidden: false
   default: ''
+- name: published
+  type: boolean
+  label: Publicato
 - name: menu_items
   type: field_group_list
   fields:
