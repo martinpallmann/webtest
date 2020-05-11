@@ -1,4 +1,11 @@
 ---
 label: Menu
 hide_body: true
-fields: []
+fields:
+- name: menu
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Menu
